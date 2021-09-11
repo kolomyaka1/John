@@ -1,0 +1,46 @@
+.footer {
+    height: 182px;
+    // .footer__conteiner
+
+    &__conteiner {
+        max-width: 235px;
+        max-height: 80px;
+        
+        
+    }
+
+    // .footer__icons
+
+    &__icons {
+        width: 240px;
+        margin: 0 auto;
+        padding-top: 51px;
+
+
+
+    }
+
+    // .footer__icons-item
+
+    &__icons-item {
+  
+        & img {
+            padding: 0px 33px 26px 0px;
+        }
+        &:last-child {
+            img {
+                padding: 0px 0px 0px 0px;
+            }
+        }
+    }
+
+    // .footer__copy
+
+    &__copy {
+        width: 222px;
+        margin: 0 auto;
+        
+    }
+}
+.container {
+}

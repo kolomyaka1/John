@@ -1,0 +1,135 @@
+.workDetail {
+    // .workDetail__container   
+    &__container {
+        max-width: 681px;
+        margin: 0 auto;
+        @media (max-width: 750px) {
+            
+        }
+    }
+
+
+    // .workDetail__content
+
+    &__content {
+
+    }
+
+    // .workDetail__title
+
+    &__title {
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 50 / 34 * 100%;
+        margin: 63px 0px 26px 0px;
+        max-width: 506px;
+    }
+
+    // .workDetail__item
+
+    &__item {
+    }
+
+    // .workDetail__year
+
+    &__year {
+        font-size: 18px;
+        line-height: 25px;
+        background: #ff7C7C;
+        border-radius: 16px;
+        padding: 0px 10px 0px 10px;
+        color: #fff;
+        margin: 0px 17px 0px 0px;
+        align-self: center;
+        
+        @media ( max-width:415px ) {
+            align-self: flex-start;
+            margin-top: 5px;
+        }
+    }
+
+    // .workDetail__autor
+
+    &__autor {
+        font-size: 20px;
+        line-height: 29 / 20 * 100%;
+    }
+
+    // .workDetail__descr
+
+    &__descr_a {
+        font-size: 16px;
+        line-height: 23 / 16 * 100%;
+        color: black;
+        margin: 24px 0px 43px 0px;
+    }
+
+    &__descr_b {
+        font-size: 16px;
+        line-height: 23 / 16 * 100%;
+        color: black;
+        margin: 0px 0px 30px 0px;
+    }
+
+    // .workDetail__img
+
+    &__img {
+        max-width: 681px;
+        max-height: 460px;
+        
+    }
+
+    &__img.a {
+        margin: 27px 0px 27px 0px;
+    }
+    // .workDetail__img-item
+
+    &__img-item {
+        @media (max-width: 750px) {
+            display: block;
+            padding: 0px 0px 15px 0px;
+            width: 100%;
+        }
+    }
+
+
+
+    // .workDetail__title1
+
+    &__title1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 200%;
+        margin: 23px 0px 0px 0px;
+    }
+
+    // .workDetail__title2
+
+    &__title2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 250%;
+        margin-bottom: 5px;
+    }
+}
+.workDetgail {
+
+    // .workDetgail__container
+
+    &__container {
+    }
+}
+.container {
+}
+
+.workDetail__year__item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.descr {
+    @media( max-width:375px ) {
+        max-width: 339px;
+    }
+}
